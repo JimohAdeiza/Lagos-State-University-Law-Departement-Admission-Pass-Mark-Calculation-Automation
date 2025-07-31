@@ -1,0 +1,15 @@
+# LASU Law Department Admission Pass Mark Calculator
+
+This script helps calculate the LASU Law Department admission cutoff using:
+- JAMB scores (converted to 50%)
+- O'Level grades across 5 core subjects
+- A final admission decision based on LASU’s defined cutoff rules
+
+## 🔧 How It Works
+- Converts JAMB score (out of 400) to a 50% scale
+- Assigns grades and points to O'Level subject scores
+- Sums JAMB and O'Level scores to determine admission eligibility
+
+## 🏁 Run It
+```bash
+python main.py
